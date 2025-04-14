@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Analog Device")(type "KiCad")(uri "${KIPRJMOD}/Analog Device.pretty")(options "")(descr ""))
+  (lib (name "Amplifier")(type "KiCad")(uri "${KIPRJMOD}/Amplifier.pretty")(options "")(descr ""))
+)
