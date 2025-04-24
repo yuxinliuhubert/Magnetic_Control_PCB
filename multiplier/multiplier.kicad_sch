@@ -1407,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 105.41) (xy 154.94 105.41)
+			(xy 154.94 118.11) (xy 220.98 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1457,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 97.79) (xy 180.34 97.79)
+			(xy 171.45 97.79) (xy 180.34 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1687,16 +1687,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 158.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2003c58-19c8-433e-9889-ad4d9d00cc92")
-	)
-	(wire
-		(pts
 			(xy 59.69 162.56) (xy 38.1 162.56)
 		)
 		(stroke
@@ -1717,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 73.66 100.33)
+			(xy 59.69 109.22) (xy 73.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1837,17 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 109.22) (xy 158.75 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab0f444-686f-4097-967b-861e7efe764b")
-	)
-	(wire
-		(pts
-			(xy 220.98 100.33) (xy 220.98 109.22)
+			(xy 220.98 100.33) (xy 220.98 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 129.54 104.14)
+			(xy 119.38 113.03) (xy 129.54 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 105.41 90.17)
+			(xy 105.41 95.25) (xy 105.41 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1966,7 +1946,7 @@
 		(uuid "23d2dd32-de59-4c0e-b512-3fb3e78972da")
 	)
 	(label "V3"
-		(at 105.41 86.36 0)
+		(at 105.41 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2056,7 +2036,7 @@
 		(uuid "d33322cc-4cb7-40b4-92ae-9864df6e69ce")
 	)
 	(label "Control_in"
-		(at 59.69 100.33 0)
+		(at 59.69 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2077,7 +2057,7 @@
 	)
 	(global_label "V2"
 		(shape input)
-		(at 175.26 97.79 180)
+		(at 171.45 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2087,7 +2067,7 @@
 		)
 		(uuid "12a74e6c-001f-4647-8f92-ed23f173620c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.9767 97.79 0)
+			(at 166.1667 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3437,7 @@
 		)
 	)
 	(sheet
-		(at 73.66 90.17)
+		(at 73.66 99.06)
 		(size 45.72 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3473,7 +3453,7 @@
 		)
 		(uuid "5b17730d-6f38-46bb-acc9-decaa0958f57")
 		(property "Sheetname" "Amplifiers"
-			(at 73.66 89.4584 0)
+			(at 73.66 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3462,7 @@
 			)
 		)
 		(property "Sheetfile" "amplifiers.kicad_sch"
-			(at 73.66 118.6946 0)
+			(at 73.66 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3471,7 @@
 			)
 		)
 		(pin "Command_out" input
-			(at 73.66 100.33 180)
+			(at 73.66 109.22 180)
 			(uuid "bd9a5014-6fb5-4f62-b46e-8b6766465896")
 			(effects
 				(font
@@ -3501,7 +3481,7 @@
 			)
 		)
 		(pin "Twin_in" input
-			(at 119.38 104.14 0)
+			(at 119.38 113.03 0)
 			(uuid "a8f6a532-4e66-444d-86ef-dccd820353da")
 			(effects
 				(font
@@ -3511,7 +3491,7 @@
 			)
 		)
 		(pin "V3" input
-			(at 105.41 90.17 90)
+			(at 105.41 99.06 90)
 			(uuid "8408f7e7-c752-4b52-afdf-61600ed7c75f")
 			(effects
 				(font
@@ -3529,7 +3509,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 93.98)
+		(at 129.54 102.87)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3545,7 +3525,7 @@
 		)
 		(uuid "ebe8b7f9-b1a5-4355-8ad0-842df35c1ddc")
 		(property "Sheetname" "Twin T"
-			(at 129.54 93.2684 0)
+			(at 129.54 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3534,7 @@
 			)
 		)
 		(property "Sheetfile" "twin_t.kicad_sch"
-			(at 129.54 114.8846 0)
+			(at 129.54 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3543,7 @@
 			)
 		)
 		(pin "Analog_in" input
-			(at 154.94 105.41 0)
+			(at 154.94 118.11 0)
 			(uuid "b1fc3539-18c4-4260-a408-7b4d4f02ca75")
 			(effects
 				(font
@@ -3573,7 +3553,7 @@
 			)
 		)
 		(pin "Twin_out" input
-			(at 129.54 104.14 180)
+			(at 129.54 113.03 180)
 			(uuid "77171290-63eb-4538-bfa4-58acde679f21")
 			(effects
 				(font
