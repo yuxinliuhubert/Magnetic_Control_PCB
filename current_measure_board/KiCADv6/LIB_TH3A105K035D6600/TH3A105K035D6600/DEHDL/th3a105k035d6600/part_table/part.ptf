@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TH3A105K035D6600'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "TH3A105K035D6600" (!) = "", "CAPPM3216X180N", "Capacitor Moulded Polarised", "", "", "Solid Tantalum Surface Mount Capacitors TANTAMOUNT(TM) Molded Case, HI-TMP High Temperature 150 C, Automotive Grade", "http://www.vishay.com/doc?40084", "1.8 mm"
+END_PART
+
+END.

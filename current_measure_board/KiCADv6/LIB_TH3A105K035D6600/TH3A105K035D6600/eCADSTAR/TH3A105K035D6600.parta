@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1557872"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-11-11-17:32:42)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TH3A105K035D6600")
+)
+
+
+(pinAssign "ECS_1557872"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-11-11-17:32:42)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1557872")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TH3A105K035D6600")
+)
+
+
+(part "TH3A105K035D6600"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-11-11-17:32:42)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "TH3A105K035D6600")
+    (pinAssignRef "ECS_1557872")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Solid Tantalum Surface Mount Capacitors TANTAMOUNT(TM) Molded Case, HI-TMP High Temperature 150 C, Automotive Grade")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "TH3A105K035D6600")
+    (property "Datasheet_Link" "http://www.vishay.com/doc?40084")
+    (property "compAreaTopHeight" 1.8)
+)
+
+

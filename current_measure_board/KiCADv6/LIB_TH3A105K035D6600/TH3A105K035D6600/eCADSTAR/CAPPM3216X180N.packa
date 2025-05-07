@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TH3A105K035D6600"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-11-16:04:34)
+    (mountForm default
+        (footprintRef "CAPPM3216X180N")
+        (spec "System")
+    )
+)

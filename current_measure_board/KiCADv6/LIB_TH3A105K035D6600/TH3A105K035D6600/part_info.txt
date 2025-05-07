@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=TH3A105K035D6600
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Moulded Polarised
+PinCount=2
+Version=1.1
+Released=2019-11-11 17:32:42
+Downloaded=2025-05-01 01:50:57
+3D=Y
