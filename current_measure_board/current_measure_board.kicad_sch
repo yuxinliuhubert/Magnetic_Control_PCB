@@ -3292,7 +3292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_trimpot:PAD_EXT_2.54x5.08mm"
+		(property "Footprint" "Custom_testpoint:PAD_EXT_0.635x2.54mm"
 			(at 33.02 171.45 0)
 			(effects
 				(font
@@ -4758,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_trimpot:PAD_EXT_2.54x5.08mm"
+		(property "Footprint" "Custom_testpoint:PAD_EXT_0.635x2.54mm"
 			(at 33.02 162.56 0)
 			(effects
 				(font

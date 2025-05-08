@@ -1,4 +1,4 @@
-24756560846421909
+24758307986764307
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55299,6 +55299,13 @@ TNPW08053K92BEEN
 0
 2
 2
+Custom_testpoint
+PAD_EXT_0.635x2.54mm
+
+
+0
+1
+1
 Custom_trimpot
 PAD_EXT_2.54x5.08mm
 

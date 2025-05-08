@@ -6,8 +6,9 @@
 	(descr "TNPW0805 e3")
 	(tags "Resistor")
 	(property "Reference" "R**"
-		(at 0 -2.5 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "6e422892-21fa-43e4-8ad1-ee272896ba88")
 		(effects
 			(font
@@ -144,14 +145,27 @@
 		(uuid "a8d1de8f-7fb9-418e-bf4e-6ac5be008e8e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
-		(layer "F.Fab")
+		(at 0 -2 0)
+		(layer "F.SilkS")
 		(uuid "110f62b0-9bf9-49c2-952c-a2fc1a5ad711")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
+		)
+	)
+	(fp_text user "4.2k"
+		(at -2 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9fbb800-6452-46d1-9377-3eac6e2de96c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(pad "1" smd rect

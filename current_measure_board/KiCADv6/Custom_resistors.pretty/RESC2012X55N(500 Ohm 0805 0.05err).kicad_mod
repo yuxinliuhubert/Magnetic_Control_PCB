@@ -8,6 +8,7 @@
 	(property "Reference" "R**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "9fafbf93-202a-4a10-b5e5-88da4db15fec")
 		(effects
 			(font
@@ -143,14 +144,27 @@
 		(layer "F.Fab")
 		(uuid "c8beeb25-44d9-46e8-85d8-cc3b1983075f")
 	)
+	(fp_text user "500"
+		(at -2 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "418d2beb-6e23-4e2c-8703-6945ccbed266")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2 0)
-		(layer "F.Fab")
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
 		(uuid "99f69c42-35d8-4759-b5cf-607438a685cb")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
