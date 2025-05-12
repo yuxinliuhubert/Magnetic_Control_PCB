@@ -19,7 +19,7 @@
 	(property "Value" "RES_TNPW0603_VIS"
 		(at 0 3.5 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "4a7b52e5-8971-49ac-b6ad-ba5ef1373b93")
 		(effects
 			(font
